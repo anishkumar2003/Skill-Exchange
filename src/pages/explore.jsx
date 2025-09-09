@@ -153,9 +153,9 @@ export default function Explore() {
               <div className="flex justify-between mt-4">
                 <button
                   onClick={() => navigate(`/profile/${profile.$id}`)}
-                  className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition text-sm"
+                  className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700"
                 >
-                  View Profile
+                  Visit Profile
                 </button>
                 <button
                   onClick={() => alert("Connection request sent! 🚀")}

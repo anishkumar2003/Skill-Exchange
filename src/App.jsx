@@ -5,6 +5,7 @@ import Signup from "./pages/signup";
 import Profile from "./pages/profile";
 import ProfileSetup from "./pages/ProfileSetup";
 import Explore from "./pages/explore";
+import ProfileView from "./pages/profileView";
 export default function App() {
   return (
     <Routes>
@@ -14,6 +15,7 @@ export default function App() {
       <Route path="/profile" element={<Profile />} />
       <Route path="/profile/edit" element={<ProfileSetup />} />
       <Route path="/explore" element={<Explore />} />
+      <Route path="/profile/:id" element={<ProfileView />} />
     </Routes>
   );
 }
